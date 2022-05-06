@@ -1,0 +1,129 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0s;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header h3 {
+    padding-left: 1rem;
+    color: #fff;
+}
+
+.circles-background {
+    position: absolute;
+    z-index: 0;
+    padding: 0;
+    right: 0;
+    opacity: 70%;
+    height: 15rem;
+    width: auto;
+
+}
+
+
+.hero {
+    color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h6 {
+    position: relative;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    z-index: 1;
+}
+
+.hero h1 {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    z-index: 1;
+}
+
+.hero h2 {
+    position: relative;
+    font-weight: 700;
+    margin: 0.25rem 0 0 0;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.gradient-background {
+    background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(42,98,209,1) 100%);
+    background-repeat: no-repeat;
+    padding: 1rem 1rem 2.5rem 1rem;
+    border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
+    margin-bottom: 1.5rem;
+}
+
+.navigation {
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.section-title {
+    height: 2rem;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    box-shadow: inset 0.25rem 0 0 0 #1696E6;
+    display: flex;
+    align-items: center;
+}
+
+.section-title h3 {
+    font-size: 1rem;
+
+}
+
+ul {
+    padding: 0;
+    margin: 1rem;
+}
+
+li {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+ul h5 {
+    display: inline;
+    margin: 0 0.5rem 0 0;
+    color: #1696E6;
+}
+
+ul span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul .service-icon {
+    height: 4rem;
+    width: auto;
+}
