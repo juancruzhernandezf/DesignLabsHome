@@ -23,6 +23,25 @@ header h3 {
     color: #fff;
 }
 
+
+.menu-fondo {
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    height: 40px;
+    width: 40px;
+    background-color: #1B54B9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-hamburguesa {
+    height: 22px;
+    width: 22px;
+}
+
 .circles-background {
     position: absolute;
     z-index: 0;
