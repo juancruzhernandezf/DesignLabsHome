@@ -76,24 +76,26 @@ header h3 {
     position: relative;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     z-index: 1;
 }
 
 .hero h2 {
     position: relative;
     font-weight: 700;
-    margin: 0.25rem 0 0 0;
+    margin: 0.5rem 0 0 0;
     font-size: 1.5rem;
     z-index: 1;
 }
 
 .gradient-background {
-    background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(42,98,209,1) 100%);
+    background-image: url(resources/background-stars.png);
+    /*background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(42,98,209,1) 100%);*/
     background-repeat: no-repeat;
     padding: 1rem 1rem 2.5rem 1rem;
     border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
     margin-bottom: 1.5rem;
+    height: 490px;
 }
 
 .navigation {
@@ -106,43 +108,107 @@ header h3 {
 .section-title {
     height: 2rem;
     padding: 0 1rem;
+    text-align: center;
+}
+
+.section-title h3 {
+    font-size: 1.5rem;
+    color: #2C65D3;
+
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem;
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.servicios-card {
+    height: 15.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(resources/servicios-image.png);
+    background-repeat: no-repeat;
+}
+
+.proyectos-card {
+    margin-top: 0.5rem;
+    height: 15.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(resources/proyectos-image.png);
+    background-repeat: no-repeat;
+}
+ul h4 {
+    display: inline;
+    margin: 0 0.5rem 0 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.empleos {
+    margin-right: 1rem;
+}
+
+.empleos .cards {
+    height: 497px;
+    overflow: hidden;
+    margin-left: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.empleos-header {
+    height: 70px;
+    background-color: #2A63D1;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empleos-header h6 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;  
+}
+
+
+.banner-contactanos {
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #3EA9FD 0%, #2A63D1 69%);
+    font-size: 1.125rem;
+}
+
+
+.title-contactanos {
+    height: 2rem;
+    padding: 0 1rem;
     margin-left: 1rem;
     box-shadow: inset 0.25rem 0 0 0 #1696E6;
     display: flex;
     align-items: center;
 }
 
-.section-title h3 {
-    font-size: 1rem;
-
-}
-
-ul {
-    padding: 0;
-    margin: 1rem;
-}
-
-li {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 0.25rem;
-    margin-top: 1rem;
-    padding: 1rem;
-    list-style-type: none;
-}
-
-ul h5 {
-    display: inline;
-    margin: 0 0.5rem 0 0;
-    color: #1696E6;
-}
-
-ul span {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-ul .service-icon {
-    height: 4rem;
-    width: auto;
+.banner-contactanos h6 {
+    max-width: 222px;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
 }
