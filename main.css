@@ -69,7 +69,6 @@ header h3 {
     font-weight: 500;
     font-size: 1rem;
     margin: 0;
-    z-index: 1;
 }
 
 .hero h1 {
@@ -77,7 +76,6 @@ header h3 {
     font-size: 1rem;
     font-weight: 400;
     margin-top: 1.5rem;
-    z-index: 1;
 }
 
 .hero h2 {
@@ -85,17 +83,17 @@ header h3 {
     font-weight: 700;
     margin: 0.5rem 0 0 0;
     font-size: 1.5rem;
-    z-index: 1;
 }
 
 .gradient-background {
     background-image: url(resources/background-stars.png);
-    /*background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(42,98,209,1) 100%);*/
+    background-color: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(42,98,209,1) 100%);
     background-repeat: no-repeat;
     padding: 1rem 1rem 2.5rem 1rem;
     border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
     margin-bottom: 1.5rem;
     height: 490px;
+    width: auto;
 }
 
 .navigation {
@@ -121,7 +119,7 @@ ul {
     padding: 0;
 }
 
-li {
+main li {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0.25rem;
     margin-top: 0;
@@ -197,6 +195,7 @@ ul h4 {
 
 
 .title-contactanos {
+    margin-top: 1.5rem;
     height: 2rem;
     padding: 0 1rem;
     margin-left: 1rem;
@@ -211,4 +210,102 @@ ul h4 {
     font-size: 1.125rem;
     font-weight: 600;
     text-align: center;
+}
+
+
+
+footer {
+    background: #11134B;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style-type: none;
+    color: #fff;
+}
+
+.father-section {
+    border-bottom: 0.5px solid #fff;
+    
+}
+
+.father-section h6 {
+    font-size: 1.125rem;
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+}
+
+.father-section p {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.father-section.last {
+    border-bottom: none;
+    margin: 0 0 1rem 0;
+}
+
+footer span p {
+    font-size: 0.625rem;
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+}
+
+.rrss div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.info-contacto span {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.info-contacto h5 {
+    margin: 0 0 0rem 0.5rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info-contacto a {
+    color: #1B54B9;
+    cursor: pointer;
+}
+
+.info-contacto img {
+    height: 34px;
+    width: 34px;
+}
+
+.conocenos-card {
+    margin-top: 1.5rem;
+    height: 15.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(resources/conocenos-image.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.conocenos-card h4 {
+    margin: 0;
+    height: 39px;
+}
+
+.conocenos-card p {
+    max-width: 18rem;
+    margin: 0;
 }
