@@ -242,7 +242,6 @@ footer ul {
     flex-direction: column;
     gap: 0.5rem;
     list-style-type: none;
-    color: #fff;
 }
 
 .father-section {
@@ -265,6 +264,11 @@ footer ul {
 .father-section.last {
     border-bottom: none;
     margin: 0 0 1rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
 }
 
 footer span p {
