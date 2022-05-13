@@ -117,7 +117,10 @@ header h3 {
 
 ul {
     padding: 0;
+    color: #fff;
 }
+
+
 
 main li {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -131,19 +134,33 @@ main li {
     height: 15.625rem;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     background-image: url(resources/servicios-image.png);
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.servicios-card p {
+    font-size: 1rem;
+    max-width: 18rem;
 }
 
 .proyectos-card {
     margin-top: 0.5rem;
     height: 15.625rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: url(resources/proyectos-image.png);
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.proyectos-card p {
+    font-size: 1rem;
+    max-width: 20rem;
 }
 ul h4 {
     display: inline;
