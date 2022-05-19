@@ -6,6 +6,8 @@
 
 html {
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -266,6 +268,10 @@ ul h4 {
     align-items: center;
 }
 
+.banner-contactanos {
+    margin-top: 2.5rem;;
+}
+
 .banner-contactanos h6 {
     max-width: 222px;
     color: #fff;
@@ -274,7 +280,27 @@ ul h4 {
     text-align: center;
 }
 
+.button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
 
+.agenda-consulta {
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    border: none;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #2A63D1;
+    margin: 0;
+    width: 100%;
+}
+
+.agenda-consulta:active {
+    background-color: #1B54B9;
+}
 
 footer {
     background: #11134B;
@@ -347,6 +373,8 @@ footer span p {
     color: #1B54B9;
     cursor: pointer;
 }
+
+
 
 .info-contacto img {
     height: 34px;
