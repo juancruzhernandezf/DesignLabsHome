@@ -235,7 +235,7 @@ ul h4 {
 .imagen-cinemark {
     height: 21.125rem;
     width: auto;
-    background-image: url(/resources/caso-cinemark.png);
+    background-image: url(resources/caso-cinemark.png);
     background-repeat: no-repeat;
 }
 
@@ -272,7 +272,7 @@ ul h4 {
 }
 
 .imagen-beego {
-    background-image: url(/resources/caso-beego.png);
+    background-image: url(resources/caso-beego.png);
     height: 21.125rem;
     width: auto;
     margin: 0;
@@ -440,7 +440,7 @@ footer span p {
 
 .cch_hero-background {
     height: 27.25rem;
-    background-image: url(/resources/background-seccion-cinemark.png);
+    background-image: url(resources/background-seccion-cinemark.png);
 }
 
 #cch_nav {
