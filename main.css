@@ -23,6 +23,7 @@ a {
 nav a img {
     height: 22px;
     width: 22px;
+    cursor: pointer;
 }
 
 header {
@@ -342,6 +343,7 @@ footer ul {
 
 .menu {
     background: linear-gradient(180deg, #2A63D1 0%, #3EA9FD 150%);
+    padding: 1.5rem;
 }
 
 .footer-background {
@@ -349,6 +351,7 @@ footer ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0);
 }
 
