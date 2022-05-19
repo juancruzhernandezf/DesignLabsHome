@@ -325,6 +325,18 @@ footer ul {
     list-style-type: none;
 }
 
+.menu {
+    background: linear-gradient(180deg, #2A63D1 0%, #3EA9FD 150%);
+}
+
+.footer-background {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .father-section {
     border-bottom: 0.5px solid #fff;
     
@@ -396,3 +408,117 @@ footer span p {
     height: 100%;
     background-color: linear-gradient(180deg, #2A63D1 0%, #62C8F4 100%);
 }
+
+/*============================================================================
+=====================EMPIEZA ESTILOS CASO ESTUDIO ==========================*/
+
+
+/* SECCION HERO */
+.cch_header {
+    padding: 1rem;
+}
+
+.cch_header .logo-design-labs {
+    width: 49px;
+    height: 55px;
+}
+
+.cch_hero-background {
+    height: 27.25rem;
+    background-image: url(/resources/background-seccion-cinemark.png);
+}
+
+#cch_nav {
+    background-color: #A01D25;
+}
+
+.cch_hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.cch_h1 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.cch_h2 {
+    font-size: 1.5rem;
+    margin:1rem 0 0 0;
+    max-width: 238px;
+    text-align: center;
+}
+
+.cch_hero_pill-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    color: #F40E0E;
+    font-size: 1rem;
+    gap: 0.5rem;
+    margin-bottom: 0;
+}
+
+.cch_hero_pill {
+    width: 90px;
+    height: 29px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.cch_hero_img-hero {
+    padding: 0 1rem; 
+    width: 100%;
+}
+
+/*SECCION CONTENIDO*/
+
+
+
+.cch_seccion-contenido {
+    margin-top: 6.5rem;
+}
+
+.cch_seccion-contenido p {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+#cch_problema {
+    box-shadow: inset 0.25rem 0 0 0 #FB333E;
+    margin-left: 0;
+}
+
+.cch_seccion-contenido figure {
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    font-size: 0.625rem;
+    margin: 0;
+    background: linear-gradient(180deg, #1C1C1C -15.6%, #FB333E 122.59%);
+}
+
+.cch_main-items {
+    padding: 0 1rem;
+}
+.cch_main-items p {
+    padding: 0;
+}
+
+.cch_seccion-contenido figcaption {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#cch_resultado-app-cmk {
+    margin-bottom: 0.5rem;
+}
+
