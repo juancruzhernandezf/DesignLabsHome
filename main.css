@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    padding: 0s;
+    padding: 0;
 }
 
 header {
@@ -97,13 +97,6 @@ header h3 {
     width: auto;
 }
 
-.navigation {
-    height: 40px;
-    width: 40px;
-    background-color: blue;
-    border-radius: 50%;
-}
-
 .section-title {
     height: 2rem;
     padding: 0 1rem;
@@ -172,37 +165,75 @@ ul h4 {
     font-size: 1.5rem;
 }
 
-
-.empleos {
-    margin-right: 1rem;
-}
-
-.empleos .cards {
-    height: 497px;
-    overflow: hidden;
-    margin-left: 1rem;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 1.5rem;
-    position: relative;
-}
-
-.empleos-header {
-    height: 70px;
-    background-color: #2A63D1;
-    position: absolute;
-    width: 100%;
+.conocenos-card {
+    margin: 0.5rem 0rem 2rem 0;
+    height: 15.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.empleos-header h6 {
+    flex-direction: column;
+    background-image: url(resources/conocenos-image.png);
+    background-repeat: no-repeat;
+    text-align: center;
     color: #fff;
-    font-size: 1.5rem;
-    margin: 0;  
+    background-size: cover;
 }
 
+.conocenos-card h4 {
+    margin: 0;
+    height: 39px;
+}
+
+.conocenos-card p {
+    max-width: 18rem;
+    margin: 0;
+}
+
+
+
+.caso-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 497px;
+    width: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1rem;
+    border-radius: 0.625rem;
+}
+
+.caso-header {
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.caso-header h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.imagen-cinemark {
+    height: 21.125rem;
+    width: auto;
+    margin: 0;
+    background-image: url(/resources/caso-cinemark.png);
+    background-repeat: no-repeat;
+
+}
+
+.caso-epigrafe h6 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0 1rem;
+    color: #FB333E;
+    font-weight: 600;
+}
+
+.caso-epigrafe p {
+    margin: 0.25rem 1rem 1.25rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    }
 
 .banner-contactanos {
     height: 5.5rem;
@@ -213,6 +244,17 @@ ul h4 {
     font-size: 1.125rem;
 }
 
+#caso1 {
+    background: linear-gradient(179.42deg, #1C1C1C -97.29%, #FB333E 121.87%);
+}
+
+#caso2 {
+    background: linear-gradient(180deg, #FF1261 -39.29%, #880934 148.57%);
+}
+
+#beego {
+    color: #D70048;
+}
 
 .title-contactanos {
     margin-top: 1.5rem;
@@ -311,26 +353,3 @@ footer span p {
     width: 34px;
 }
 
-.conocenos-card {
-    margin-top: 1.5rem;
-    height: 15.625rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-image: url(resources/conocenos-image.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    color: #fff;
-    background-size: cover;
-}
-
-.conocenos-card h4 {
-    margin: 0;
-    height: 39px;
-}
-
-.conocenos-card p {
-    max-width: 18rem;
-    margin: 0;
-}
