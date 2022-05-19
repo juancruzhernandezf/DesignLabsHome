@@ -177,6 +177,15 @@ ul h4 {
     font-size: 1.5rem;
 }
 
+.casos-estudio a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.caso-container {
+    cursor: pointer;
+}
+
 .conocenos-card {
     margin: 0.5rem 0rem 2rem 0;
     height: 15.625rem;
@@ -202,7 +211,6 @@ ul h4 {
 }
 
 
-
 .caso-container {
     display: flex;
     flex-direction: column;
@@ -212,7 +220,7 @@ ul h4 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 1rem;
     border-radius: 0.625rem;
-}
+   }
 
 .caso-header {
     border-radius: 0.625rem 0.625rem 0 0;
@@ -227,10 +235,8 @@ ul h4 {
 .imagen-cinemark {
     height: 21.125rem;
     width: auto;
-    margin: 0;
     background-image: url(/resources/caso-cinemark.png);
     background-repeat: no-repeat;
-
 }
 
 .caso-epigrafe h6 {
@@ -260,8 +266,17 @@ ul h4 {
     background: linear-gradient(179.42deg, #1C1C1C -97.29%, #FB333E 121.87%);
 }
 
+
 #caso2 {
     background: linear-gradient(180deg, #FF1261 -39.29%, #880934 148.57%);
+}
+
+.imagen-beego {
+    background-image: url(/resources/caso-beego.png);
+    height: 21.125rem;
+    width: auto;
+    margin: 0;
+    background-repeat: no-repeat;
 }
 
 #beego {
