@@ -123,10 +123,18 @@ header h3 {
 }
 
 ul {
-    padding: 0;
-    color: #fff;
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
+ul h5 {
+    color: #fff;
+}
 
 
 main li {
@@ -134,7 +142,6 @@ main li {
     border-radius: 0.25rem;
     margin-top: 0;
     padding: 0;
-    list-style-type: none;
 }
 
 .servicios-card {
@@ -147,11 +154,13 @@ main li {
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
+    color: #fff;
 }
 
 .servicios-card p {
     font-size: 1rem;
     max-width: 18rem;
+    color: #fff;
 }
 
 .proyectos-card {
@@ -170,6 +179,7 @@ main li {
 .proyectos-card p {
     font-size: 1rem;
     max-width: 20rem;
+    color: #fff;
 }
 ul h4 {
     display: inline;
@@ -332,13 +342,13 @@ footer {
     background: #11134B;
     padding: 1rem;
     margin-top: 2rem;
+    color: #fff;
 }
 
 footer ul {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    list-style-type: none;
 }
 
 .menu {
@@ -476,7 +486,6 @@ footer span p {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
     color: #F40E0E;
     font-size: 1rem;
     gap: 0.5rem;
@@ -540,3 +549,100 @@ footer span p {
     margin-bottom: 0.5rem;
 }
 
+#cch_footer {
+    background-color: #87272C;
+}
+
+
+
+/*=========================================================================================
+=========================================SECCION EMPLEOS===================================*/
+
+.empleos-hero {
+    height: 430px;
+    border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
+    padding: 1rem;
+    background: linear-gradient(180deg, #2A63D1 0%, #62C8F4 100%);
+}
+
+.imagen-empleos {
+    background-image: url(resources/empleos-hero-image.png);
+    height: 194px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+#empleos_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#empleos_main h3 {
+    font-size: 1.5rem;
+    color: #2A63D1;
+    padding: 0 1rem;
+    margin: 1.5rem 0 1rem 0;
+    text-align: center;
+}
+
+.lista-normal {
+    color: #000; 
+    
+}
+
+.lista-normal li {
+    text-align: center;
+    box-shadow: none;
+    margin-top: 0.25rem;
+}
+
+.boton-empleos {
+    background-color: #2A63D1;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+    height: 3rem;
+    border-radius: 4px;
+}
+
+.empleos_cultura {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.empleos_cultura .title-contactanos {
+    margin-left: 0;
+}
+
+.empleos_cultura p {
+    font-size: 1rem;
+}
+
+.empleos_cultura h5 {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2A63D1;
+}
+
+.empleos_cultura a {
+    margin-bottom: 2.5rem;
+}
+
+
+#empleos_footer ul {
+    padding: 0;
+}
+
+#empleos_footer P {
+    color: #fff;
+}
