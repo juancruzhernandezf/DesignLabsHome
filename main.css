@@ -651,3 +651,116 @@ footer span p {
 #empleos_footer P {
     color: #fff;
 }
+
+/*============================================================================================
+============================ACA COMIENZA PORFOLIO=============================================
+==============================================================================================*/
+
+.gradient-background-violeta {
+    background-image: url(resources/portfolio-fondo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 1rem 1rem 2.5rem 1rem;
+    border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
+    margin-bottom: 1.5rem;
+    height: 490px;
+    width: auto;
+}
+
+.gradient-background-violeta h1 {
+    margin-top: 0.5rem;
+}
+.gradient-background-violeta .hero {
+    margin-top: 2rem;
+}
+
+.background-violeta {
+    background: linear-gradient(180deg, #181C7D 0%, #6F5BC2 54.43%, #A583EE 88.8%);
+    border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
+}
+
+.gradient-background-violeta nav {
+    background-color: #6C59C1;
+}
+
+.porfolio-destacados {
+    display: flex;
+    flex-direction: column;
+}
+
+.porfolio .title-contactanos {
+    box-shadow: inset 0.25rem 0 0 0 #A583EE;
+}
+
+.porfolio-destacados h5 {
+ text-align: center;
+ font-size: 1rem;
+ font-weight: 400;
+ color: #204B8F;
+ margin: 1rem 1rem;
+}
+
+.porfolio button {
+    margin-top: 1rem;
+    background-color:#6C59C1 ;
+}
+
+
+.porfolio-teamwork {
+    align-self: center;
+    width: 303px;
+    height: 189px;
+}
+
+.porfolio-carousel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.porfolio-proyectos-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #11134B;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #181C7D 0%, #6F5BC2 54.43%, #A583EE 88.8%);
+}
+
+.porfolio-proyectos-card .proyectos-card-cover{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.porfolio-proyectos-card h4 {
+    margin: 1rem 0 .25rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.proyectos-card-cover {
+    align-self: center ;
+    border-radius: 10px;
+}
+
+.ver-mas {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ver-mas a {
+    height: auto;
+    min-width: 4rem;
+    margin-right: 0.25rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.porfolio-servicios {
+    height: auto;
+    width: auto;
+    margin: 2rem 1rem 4rem 1rem ;
+}
+
