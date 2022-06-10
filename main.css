@@ -110,6 +110,11 @@ header h3 {
     width: auto;
 }
 
+.isologo-design-labs {
+    height: 55px;
+    width: 49px;
+}
+
 .section-title {
     height: 2rem;
     padding: 0 1rem;
