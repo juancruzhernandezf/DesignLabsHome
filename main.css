@@ -782,6 +782,14 @@ footer span p {
     justify-content: center;
 }
 
+.cultura_section-main {
+    text-align: center;
+}
+
+.cultura_section-main h3 {
+    margin: 1rem 0 0 0;
+}
+
 .cultura_hero h6 {
     position: relative;
     font-weight: 500;
@@ -818,3 +826,48 @@ footer span p {
     border-radius: 8px;
 }
 
+.cultura_creamos {
+    height: 352px;
+    width: 100%;
+    background-image: url(resources/cultura_creamos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cultura_main .title-contactanos {
+    align-self: flex-start;
+    box-shadow: inset 0.25rem 0 0 0 #A583EE;
+    margin-top: 0;
+}
+
+.cultura_main p{
+    font-size: 0.875rem;
+    padding: 0 1rem;
+    align-self: flex-start;
+    margin-bottom: 0;
+    color: #1A1D7F;
+}
+
+.cultura_clientes {
+    height: 280px;
+    width: 100%;
+    background-image: url(resources/cultura_clientes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cultura_consultoria {
+    height: 300px;
+    width: 100%;
+    background-image: url(resources/cultura_consultoria.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nunca-fallamos {
+    margin-top: 0;
+}
+
+.cultura_footer {
+    background: #260E6A
+}
