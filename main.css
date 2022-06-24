@@ -764,3 +764,57 @@ footer span p {
     margin: 2rem 1rem 4rem 1rem ;
 }
 
+/*================================================================================
+==============================CULTURA===========================================
+================================================================================*/
+
+
+.cultura_header {
+    padding: 1rem;
+}
+
+.cultura_hero {
+    color: #fff;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cultura_hero h6 {
+    position: relative;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.cultura_hero h1 {
+    position: relative;
+    max-width: 200px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.75rem 0 1.5rem 0;
+}
+
+.cultura_hero h2 {
+    position: relative;
+    font-weight: 700;
+    margin: 0.5rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+.cultura_main {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+
+}
+
+.cultura_main-picture img {
+    align-self: center;
+    border-radius: 8px;
+}
+
