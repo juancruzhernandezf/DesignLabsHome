@@ -773,6 +773,10 @@ footer span p {
     padding: 1rem;
 }
 
+.cultura_header .menu-fondo {
+    background: #6C59C1;
+}
+
 .cultura_hero {
     color: #fff;
     padding: 1rem;
