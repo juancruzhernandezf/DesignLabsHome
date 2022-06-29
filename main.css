@@ -570,13 +570,17 @@ footer span p {
     background: linear-gradient(180deg, #2A63D1 0%, #62C8F4 100%);
 }
 
+#logo_design-labs {
+    height: 55px;
+    width: 49px;
+}
+
 .imagen-empleos {
     background-image: url(resources/empleos-hero-image.png);
     height: 194px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
-
 }
 
 #empleos_main {
@@ -874,4 +878,121 @@ footer span p {
 
 .cultura_footer {
     background: #260E6A
+}
+
+
+/*================================================================================
+==============================CARGA-CV===========================================
+================================================================================*/
+
+
+.imagen-cargacv {
+    background-image: url(resources/carga-cv-image.png);
+    height: 194px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cv_header {
+    padding: 1rem;
+}
+
+.background-violeta nav {
+    background-color: #6C59C1;
+}
+
+.cv_main {
+    padding: 1rem;
+}
+
+.cv_main h3 {
+    font-size: 1rem;
+}
+
+.cv_main h4 {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #1A1D7F;
+    margin: 1rem 0 0 0;
+}
+
+#file-upload {
+    display: none;
+}
+
+.cv_file-upload {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 100%;
+    color: #6C59C1;
+    background-color: #E5E6FB;
+    padding: 1rem;
+    border-radius: 4px;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.cv_file-upload:active {
+    border: solid 1px #11134B;
+}
+
+.cv_file-upload p {
+    margin: 0;
+    font-size: .75rem;
+}
+
+#file-upload-2 {
+    display: none;
+}
+
+.cv_input {
+    color: #6C59C1;
+    height: 3rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: 4px;
+    background-color: #E5E6FB;
+    border: none;
+}
+
+.cv_input:focus{
+    border: 1px solid red;
+}
+
+.cv_input::placeholder {
+    color: #6C59C1;
+}
+
+#cv_textarea {
+    color: #6C59C1;
+    height: 12.25rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: 4px;
+    background-color: #E5E6FB;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#cv_textarea::placeholder {
+    color: #6C59C1;
+    font-family: 'Inter', sans-serif;
+}
+
+.cv_main input[type=submit] {
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: #6C59C1;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#cv_footer {
+    background-color: #260E6A;
 }
