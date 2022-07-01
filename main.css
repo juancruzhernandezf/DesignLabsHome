@@ -162,6 +162,10 @@ main li {
     color: #fff;
 }
 
+.servicios-link {
+    text-decoration: none;
+}
+
 .servicios-card p {
     font-size: 1rem;
     max-width: 18rem;
