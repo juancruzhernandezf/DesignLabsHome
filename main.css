@@ -1140,8 +1140,11 @@ footer span p {
 =====================================SERVICIOS=====================================
 ===================================================================================*/
 
-#hero-azul {
+.servicios-hero {
     height: 309px;
+}
+
+#hero-azul {
     border-radius: 0% 0% 100% 100% / 0% 0% 10% 10%;
     padding: 1rem;
     background: linear-gradient(180deg, #2A63D1 0%, #62C8F4 100%);
@@ -1151,7 +1154,7 @@ footer span p {
     padding: 1rem;
 }
 
-.servicios_main h2 {
+.servicios_main h3 {
     font-size: 1.5rem;
     font-weight: 600;
     color: #204B8F;
@@ -1200,4 +1203,103 @@ footer span p {
     align-items: center;
     color: #fff;
     text-decoration: none;
+}
+
+
+/*==============================================================================================
+========================================WEBDEV==================================================
+================================================================================================*/
+
+.webdev-hero {
+    height: 510px;
+    overflow: hidden;
+}
+
+.webdev-hero h1 {
+
+    margin-top: .5rem;
+
+}
+
+.webdev_main h3 {
+    font-size: 1.5rem;
+    color: #204B8F;
+    margin: 1rem;
+}
+
+.webdev_main p {
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1rem;
+}
+
+.imagen-webdev {
+    margin-top: 1rem;
+    background-image: url(resources/webdev-illus.png);
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+
+.img-dev-mockup {
+    background: url(/resources/dev-img-mockup.png);
+    height: 257px;
+    background-repeat: no-repeat;
+    margin: 0 1rem;
+}
+
+.cuadro-trabajemos-juntos {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #2A63D1;
+    text-align: center;
+    color: #fff;
+}
+
+.trabajemos-juntos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.trabajemos-juntos a {
+    min-width: 150px;
+    color: #fff;
+}
+
+.webdev_main .title-contactanos {
+    box-shadow: inset 0.25rem 0 0 0 #204B8F
+}
+
+/*====================================================================================================
+==================================UX EXPERIENCIA DE USAURIO===========================================
+=====================================================================================================*/
+
+.ux-hero {
+    height: 420px;
+    overflow: hidden;
+}
+
+
+.imagen-ux {
+    margin-top: 1rem;
+    background-image: url(resources/ux-hero.png);
+    height: 110px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+.img-design-thinking {
+    background: url(/resources/design-thinking.png);
+    height: 341px;
+    background-repeat: no-repeat;
+}
+
+.title-contactanos + p {
+    margin: 1rem 1rem 2rem 1rem;
 }
